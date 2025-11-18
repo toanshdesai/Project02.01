@@ -74,7 +74,7 @@ public class BaseConverter {
         Scanner in;
         PrintWriter pw;
         try{
-            File file = new File("datafiles/values.dat");
+            File file = new File("datafiles/values10.dat");
 
             if (!file.exists()) {
                 JFileChooser chooser = new JFileChooser();
